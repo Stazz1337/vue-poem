@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'DejaVu Serif';
+  src: url('./assets/fonts/DejaVuSerif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Для разрешения 2K и 4K */
+@media only screen and (min-width: 2048px) {
+  html {
+    zoom: 200%
+  }
+}
+
+/* Для разрешения 8K */
+@media only screen and (min-width: 7680px) {
+  html {
+    zoom: 400%
+  }
+}
+
+* {
+  font-family: 'DejaVu Serif', Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  min-width: 450px;
+}
+
+#app {
+  margin: 0 auto;
+}
